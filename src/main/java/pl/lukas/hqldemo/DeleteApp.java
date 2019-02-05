@@ -26,7 +26,10 @@ public class DeleteApp {
         String delete = "delete Employee e where e.idEmployee=:idEmployee";
         Query query = session.createQuery(delete);
         query.setParameter("idEmployee", idEmployee);
-        query.executeUpdate();
+        int i = query.executeUpdate();
+
+        System.out.println("ilość usuniętych rekordó: " + i);
+
 
         session.getTransaction().commit();
         // zakończeine obiektu SessionFactory
