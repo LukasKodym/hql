@@ -25,7 +25,7 @@ public class FromApp { // wczytuje bazę danych
 
         String from = "FROM Employee";
         String from2 = "from Employee"; // wielkość liter dla słów kluczowych nie ma znaczneia
-        String from3 = "from pl.lukas.hqldemo.entity.Employee"; // w przypadku gdy encje nazywają sie tak samo podajemy pełną ścieżkę do pakietu
+        String from3 = "from pl.lukas.hqldemo.pl.lukas.hibernateAssociations.entity.Employee"; // w przypadku gdy encje nazywają sie tak samo podajemy pełną ścieżkę do pakietu
 
         Query query = session.createQuery(from3); // można podstawić from2 i from3 i otrzymamy to samo
 
