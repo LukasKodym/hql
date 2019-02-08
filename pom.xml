@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.lukas</groupId>
-    <artifactId>hqlDemo</artifactId>
+    <artifactId>hql</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
